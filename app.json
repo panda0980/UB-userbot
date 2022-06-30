@@ -7,7 +7,7 @@
         "telethon",
         "telegram-bot"
     ],
-    "repository": "https://github.com/Perry-xD/PyroGod",
+    "repository": "https://github.com/panda0980/UB-userbot",
     "website": "https://t.me/pandas_tech",
     "success_url": "https://t.me/pandas_tech",
     "env": {
