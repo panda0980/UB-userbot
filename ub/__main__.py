@@ -1,4 +1,4 @@
-from ub import *
+from ub import UBbot
 
 
 
