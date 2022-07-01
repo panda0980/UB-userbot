@@ -1,8 +1,7 @@
 from pyrogram import idle, Client, filters
 from pyrogram.types import Message
-from .ub import UBbot, LOGGER
+from . import UBbot, LOGGER
 from config import *
-from .ub import *
 import os
 
 
