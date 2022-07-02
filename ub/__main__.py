@@ -8,7 +8,7 @@ import os
 
 
 
-print("PyroGod Started \nPowered By @Perry_XD\n(C) 2021 Paramedra Singh")
+print("UBbot started")
 
 
 
