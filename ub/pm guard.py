@@ -1,7 +1,7 @@
 import os
 from pyrogram import filters
 from pyrogram.types import Message
-from . import UBbot
+from ub import UBbot
 from database import add_approved, remove_approved, check_approved
 
 PMPERMIT_MESSAGE = ("""
