@@ -15,10 +15,8 @@ CMD_HELP = {}
 
 StartTime = time.time()
 
-API_ID = API_ID
-API_HASH = API_HASH
-PY_SESSION = SESSION
 
-UBbot = Client(PY_SESSION, api_id=API_ID, api_hash=API_HASH)
+
+UBbot = Client(session_string=SESSION, api_id=API_ID, api_hash=API_HASH)
 
 
