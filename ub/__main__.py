@@ -9,7 +9,7 @@ botcommand = "."
 @UBbot.on_message(filters.command("alive", botcommand))
 async def start_message(Client, message:Message):
     await Client.send_message(message.chat.id, "UBbot succefully started")
-    LOGGER.info("userbot succesfully running")
+    LOGGER.INFO("userbot succesfully running")
 
 
 
