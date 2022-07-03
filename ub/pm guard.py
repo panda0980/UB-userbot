@@ -19,8 +19,9 @@ DEFAULT_PM_LIMIT = 3
 botcommand = "."
 
 @UBbot.on_message(filters.command("a","approve", botcommand))
-async def approve_user(_, message:Message):
+async def approve_user(Client, message:Message):
     msg = await message.reply_text("Processing....")
+    LOGGER>warning("userbot have error")
     chat_type = message.chat.type
     if chat_type == "me":
         return await msg.edit("It is not correct way, you can not approve yourself")
