@@ -18,8 +18,8 @@ Simple PM restriction userbot based on pyrogram
 
 ## License
 ```
-    PyroGod Userbot, A Telegram Lightweight Userbot
-    Copyright (C) 2021 Paramendra Singh
+    UB Userbot, A Telegram Lightweight Userbot
+    Copyright (C) 2022 
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
