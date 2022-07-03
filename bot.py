@@ -17,7 +17,7 @@ CMD_HELP = {}
 StartTime = time.time()
 
 
-PLUGINS=dict(root="ub"/"plugins")
+PLUGINS=dict(root="ub/plugins")
 
 UBbot = Client(
     "UB-userbot",
