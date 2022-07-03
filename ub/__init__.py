@@ -17,7 +17,4 @@ StartTime = time.time()
 
 
 
-UBbot = Client(SESSION,
-               name = "UB-userbot",
-               api_id=API_ID, 
-               api_hash=API_HASH)
+UBbot = Client(SESSION, api_id=API_ID, api_hash=API_HASH)
