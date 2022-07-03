@@ -17,6 +17,7 @@ CMD_HELP = {}
 StartTime = time.time()
 
 
+PLUGINS=dict(root="ub/plugins")
 
 UBbot = Client(
     "UB-userbot",
@@ -24,7 +25,7 @@ UBbot = Client(
     api_id=API_ID,
     session_string=SESSION,
     sleep_threshold=10,
-    plugins=dict(root="ub"),
+    plugins=PLUGINS,
 )
 
 botcommand = "."
