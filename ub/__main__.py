@@ -4,11 +4,11 @@ from ub import UBbot, LOGGER
 import os
 
 
+botcommand = "."
 
-
-
-
-print("UBbot started")
+@UBbot.on_message(filters.command("alive", botcommand))
+async def start_message(Client, message:Message):
+    Client.send_message("me", "UBbot succefully started")
 
 
 
