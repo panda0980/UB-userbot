@@ -1,6 +1,6 @@
 import time
 from pyrogram import Client  
-from Config import API_HASH, API_ID, SESSION
+from Config import SESSION, API_ID, API_HASH
 import logging
 
 logging.basicConfig(
