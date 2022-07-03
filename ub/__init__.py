@@ -22,5 +22,8 @@ UBbot = Client(
     api_hash=API_HASH,
     api_id=API_ID,
     session_string=SESSION,
-    sleep_threshold=10
+    sleep_threshold=10,
+    plugins={
+                "root": "pm_guard"
+            },
 )
