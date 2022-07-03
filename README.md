@@ -1,7 +1,5 @@
 <h1 align="center"> <b>UB-userbot</b> <h1>
 
-
-
 Simple PM restriction userbot based on pyrogram
 
 
