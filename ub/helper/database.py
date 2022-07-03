@@ -5,7 +5,7 @@ mongodb = AsyncIOMotorClient()
 UBbot_db = mongodb["UBbotd"]
 """
 import pymongo
-from ub.Config import MONGO_URI
+from Config import MONGO_URI
 
 UB_db = pymongo.MongoClient(MONGO_URI)
 
