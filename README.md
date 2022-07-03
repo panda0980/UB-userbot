@@ -19,7 +19,7 @@ Simple PM restriction userbot based on pyrogram
 ## License
 ```
     UB Userbot, A Telegram Lightweight Userbot
-    Copyright (C) 2022 
+    Copyright (C) 2022 panda0980
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
