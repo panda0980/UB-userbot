@@ -7,6 +7,12 @@ CMD_HELP = {}
 
 StartTime = time.time()
 
-UBbot = Client(SESSION, api_id=API_ID, api_hash=API_HASH)
 
 
+UBbot = Client(
+    "UB-userbot",
+    api_hash=API_HASH,
+    api_id=API_ID,
+    session_string=SESSION,
+    sleep_threshold=10,
+)
