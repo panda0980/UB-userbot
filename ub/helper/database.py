@@ -1,9 +1,4 @@
-"""
-from motor.motor_asyncio import AsyncIOMotorClient
-
-mongodb = AsyncIOMotorClient()
-UBbot_db = mongodb["UBbotd"]
-"""
+#Database for users
 import pymongo
 from Config import MONGO_URI
 
